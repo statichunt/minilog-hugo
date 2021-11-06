@@ -1,0 +1,372 @@
+.navigation {
+  min-height: 5.5rem;
+
+  &.navbar-bg {
+    background-color: $white;
+  }
+
+  select {
+    color: $text-dark;
+    background-color: $white;
+    font-family: $font-secondary;
+
+    option {
+      color: $color-primary;
+    }
+  }
+
+  .checkmark {
+    cursor: pointer;
+
+    svg {
+      width: .9rem;
+    }
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-item {
+        &:not(:last-child) {
+          margin-right: 0.875rem;
+        }
+
+        .nav-link {
+          padding: 0 .7rem;
+
+          @include tablet {
+            padding: .5rem;
+          }
+        }
+
+        .nav-link,
+        .dropdown-item {
+          color: $text-dark;
+          text-transform: capitalize;
+          font-size: 0.875rem;
+          font-weight: 400;
+
+          &:hover {
+            color: $color-primary;
+          }
+        }
+
+        &.active {
+          .nav-link {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+
+    &.navbar-web {
+      .nav-item.dropdown {
+        @media (min-width: 992px) {
+          margin-right: 28px !important;
+        }
+
+        @media (min-width: 992px) {
+          .navbar-expand-lg .navbar-nav .dropdown-menu {
+            position: absolute;
+          }
+
+          .dropdown-menu {
+            display: block;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+          }
+
+          &:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(10px);
+          }
+        }
+      }
+    }
+
+    // dropdown
+    .dropdown-toggle {
+      &::after {
+        border: 0;
+        position: absolute;
+        right: -10px;
+        top: 0;
+        content: "\f078";
+        font-family: $font-icon;
+      }
+    }
+
+    .dropdown-menu {
+      transition: 0.3s;
+      border: 0;
+      background-color: $white;
+      box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, 0.15);
+      padding: 13px 5px;
+      border-radius: 0px;
+    }
+
+    .dropdown-item {
+      padding: .15rem 1rem;
+
+      &:not(:last-child) {
+        margin-bottom: .5rem;
+      }
+
+      &:active,
+      &.active {
+        background-color: transparent;
+        color: $color-primary;
+      }
+    }
+
+  }
+
+}
+
+/* search */
+.search {
+  .search-btn {
+    border: 0;
+    background: transparent;
+
+    i {
+      color: $text-dark;
+      font-size: .8rem;
+    }
+  }
+
+  .search-wrapper {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    right: 0;
+    height: 88px;
+    z-index: 2;
+    visibility: hidden;
+    transition: .2s ease;
+    opacity: 0;
+
+    &.open {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+
+  .search-box {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background: $white;
+    font-size: 1.5rem;
+    padding: 0;
+    border: 1px solid $border-color;
+
+    &:focus-visible {
+      outline: 0;
+    }
+
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+
+  .search-close {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background: transparent;
+    page-break-after: 10px;
+    font-size: 1.5rem;
+
+    i {
+      color: $text-color;
+    }
+  }
+}
+
+// offcanvas
+.offcanvas-top {
+  height: auto;
+}
+
+.offcanvas-area {
+  .navbar.navbar-expand-lg.navbar-light {
+
+    .collapse:not(.show) {
+      display: block !important;
+    }
+
+    .nav-item {
+      line-height: 3rem;
+
+      @include desktop {
+        line-height: 2.5rem;
+      }
+
+      .nav-link {
+        padding: 0;
+        display: inline-block;
+        position: relative;
+
+        &.show {
+          &::after {
+            transform: rotate(180deg);
+          }
+        }
+
+        &::after {
+          right: -24px;
+          top: 0;
+
+          @include desktop {
+            top: 0;
+            font-size: .8rem;
+          }
+        }
+      }
+    }
+
+    .navbar-nav .dropdown-menu {
+      position: static !important;
+      box-shadow: none;
+      background: transparent;
+      padding: 0;
+    }
+
+    .dropdown-item,
+    .nav-link {
+      font-size: 1.3rem;
+
+      &::after {
+        font-size: 1rem;
+      }
+
+      @include desktop {
+        font-size: 1rem;
+      }
+    }
+
+    .dropdown-item {
+      color: $text-color;
+
+      @include desktop {
+        margin-bottom: 0;
+        padding: 0 0.625rem;
+      }
+    }
+
+    .nav-link.dropdown-toggle {
+      padding-right: 1.5rem;
+
+      &::after {
+        right: 0;
+      }
+    }
+
+
+  }
+
+  .menu-bar i {
+    color: $text-dark;
+  }
+
+  .btn-close {
+    top: 0px;
+
+    svg {
+      width: 1.56rem;
+      height: 1.56rem;
+      fill: $text-dark;
+    }
+
+  }
+
+  .offcanvas-backdrop {
+    background-color: rgba($black, .6);
+  }
+
+  .social-links {
+    margin-bottom: 45px;
+
+    a {
+      font-size: 1.4rem;
+
+      @include desktop {
+        font-size: 1rem;
+      }
+    }
+  }
+
+
+}
+
+
+// Dark Theme
+.dark {
+  .navigation {
+    &.navbar-bg {
+      background-color: darken($dark-body-bg, 2%);
+      color: rgba($white, .7);
+    }
+
+    svg {
+      path {
+        stroke: rgba($white, .7);
+      }
+    }
+
+    select {
+      color: rgba($white, .7);
+      background-color: transparent;
+    }
+
+    .offcanvas {
+      background-color: $dark-body-bg;
+    }
+
+    .navbar-light {
+      .dropdown-menu {
+        background-color: $black;
+      }
+
+      .navbar-nav .nav-item .nav-link {
+        color: rgba($white, .7);
+
+        &:hover {
+          color: $white;
+
+        }
+      }
+    }
+
+    .navbar.navbar-expand-lg.navbar-light .dropdown-item {
+      color: rgba($white, .5);
+
+      &:hover,
+      &:focus {
+        color: $white;
+        background-color: $dark-body-bg;
+      }
+    }
+  }
+
+  .search-btn i,
+  .search .search-close i {
+    color: $dark-text-color;
+  }
+
+  .search .search-box {
+    background-color: darken($dark-body-bg, 2%);
+    border-color: $dark-border-color;
+    color: $white;
+
+  }
+
+  .post-meta li a {
+    color: $dark-text-color;
+  }
+
+}

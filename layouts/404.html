@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<section class="section error">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="display-1 mb-0 font-secondary fw-semibold text-capitalize pb-5">{{ i18n `page_not_found`}} <small class="text-light-200 fw-medium">error</small></h1>
+        <h2 class="text-capitalize pb-4">the page you are looking for does not exist!</h2>
+        <a href="{{site.BaseURL | relLangURL}}" class="btn btn-xl btn-primary text-uppercase">{{ i18n `back_to_home` }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

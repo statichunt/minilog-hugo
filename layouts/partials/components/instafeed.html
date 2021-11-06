@@ -1,0 +1,9 @@
+<!--===================== Instafeed Start =====================-->
+{{ with site.Params.instafeed }}
+{{ if .enable }}
+<section class="section pb-0 instafeed">
+  <div class="instagram-slider" id="instafeed" data-accessToken="{{.access_token}}"></div>
+</section>
+{{ end }}
+{{ end }}
+<!--===================== Instafeed End =====================-->

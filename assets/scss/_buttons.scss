@@ -1,0 +1,108 @@
+/* Button style */
+.btn {
+  font-size: 0.9rem;
+  font-family: $font-primary;
+  text-transform: capitalize;
+  padding: .7em 1em;
+  border-radius: 0;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  @include transition(.3s);
+  font-size: 14px;
+  font-weight: 400;
+
+  &-xl {
+    padding: 10px 34px;
+  }
+
+  &-lg {
+    padding: 10px 22px;
+  }
+
+  &-md {
+    font-size: 11px;
+  }
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+
+.btn-primary {
+  background: $color-primary;
+  color: $white;
+  border-color: $color-primary;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    border-color: $color-primary !important;
+    background-color: $white;
+    color: $black !important;
+  }
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: $color-primary;
+  border-color: $color-primary;
+
+  &:hover,
+  &:active,
+  &.active,
+  &:focus,
+  &.focus {
+    background: $color-primary !important;
+    border-color: $color-primary !important;
+    color: $white !important;
+  }
+}
+
+
+.btn-link {
+  font-size: 1rem;
+  color: $text-dark;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: $font-secondary;
+  display: inline-block;
+
+  &:hover svg{
+    transform: translateX(.3rem);
+  }
+  
+  svg path {
+    fill: $text-dark;
+  }
+  
+  svg {
+    margin-left: .5rem;
+    margin-top: 0.1875rem;
+    @include transition(.3s);
+  }
+
+  &:hover {
+    color: $color-primary;
+  }
+
+  &:hover svg path {
+    fill: $color-primary;
+  }
+}
+
+.dark {
+  .btn-primary:hover {
+    background-color: $color-primary !important;
+    color: $white !important;
+  }
+}

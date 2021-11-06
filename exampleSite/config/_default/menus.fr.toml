@@ -1,0 +1,126 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "À propos"
+url = "about"
+weight = 1
+
+[[main]]
+weight = 2
+name = "pages"
+hasChildren = true
+
+  [[main]]
+  parent = "pages"
+  name = "404 Page"
+  url = "404/"
+
+  [[main]]
+  parent = "pages"
+  name = "privacy-policy"
+  url = "privacy-policy/"
+
+  [[main]]
+  parent = "pages"
+  name = "éléments"
+  url = "elements"
+
+  [[main]]
+  parent = "pages"
+  name = "détails du blog"
+  url = "posts/post-1/"
+
+  [[main]]
+  parent = "pages"
+  name = "catégories"
+  url = "categories/lifestyle/"
+
+  [[main]]
+  parent = "pages"
+  name = "tags"
+  url = "tags/lifestyle/"
+
+  [[main]]
+  parent = "pages"
+  name = "search"
+  url = "search/"
+  
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 3
+
+
+# offcanvas menu
+[[offcanvas]]
+name = "Home"
+url = ""
+weight = 1
+
+[[offcanvas]]
+name = "about me"
+url = "about"
+weight = 2
+
+
+[[offcanvas]]
+weight = 3
+name = "pages"
+hasChildren = true
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "404 Page"
+  url = "404/"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "privacy policy"
+  url = "privacy-policy/"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "elements"
+  url = "elements"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "blog details"
+  url = "posts/post-1/"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "categories"
+  url = "categories/lifestyle/"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "tags"
+  url = "tags/lifestyle/"
+
+  [[offcanvas]]
+  parent = "pages"
+  name = "search"
+  url = "search/"
+
+[[offcanvas]]
+name = "contact"
+url = "contact"
+weight = 4
+
+# footer menu
+[[footer]]
+name = "facebook"
+URL = "/"
+weight = 1
+
+[[footer]]
+name = "instagram"
+URL = "/"
+weight = 2
+
+[[footer]]
+name = "twitter"
+URL = "/"
+weight = 3

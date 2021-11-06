@@ -1,0 +1,17 @@
+{{ with .Site.GetPage "/about" }}
+<div class="col-xl-8 mx-auto text-center">
+  <div class="widget author">
+    <h3 class="widget-title text-uppercase text-center">{{ i18n `about_me` }}</h3>
+    {{ partial "images/image.html" (dict "Src" .Params.image "Class" "mb-3")}}
+    <h4 class="fs-6 text-capitalize">{{ .Params.author_name }}</h4>
+    <p>{{ .Summary  | truncate 70}} </p>
+
+    <h4 class="fs-6 text-capitalize">{{ i18n `follow_on` }}</h4>
+    <ul class="list-inline social-links-icon">
+      {{- range site.Params.social }}
+      <li class="list-inline-item text-center"><a href="{{ .url | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      {{- end }}
+    </ul>
+  </div>
+</div>
+{{ end }}

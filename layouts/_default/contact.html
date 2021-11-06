@@ -1,0 +1,51 @@
+{{ define "main" }}
+
+<section class="section-md pb-0 contact">
+  <div class="container">
+    <div class="row">
+      {{ partial "components/page-header.html" . }}
+      <div class="col-lg-7 offset-lg-1">
+        {{ .Content }}
+        {{ with site.Params }}
+        <ul class="list-unstyled text-capitalize font-secondary mb-5">
+          <li class="fw-light">
+            <span class="me-3 text-dark fw-normal">email:</span><a href=""> {{.email | markdownify}} </a>
+          </li>
+          <li class="fw-light">
+            <span class="me-3 text-dark fw-normal">phone</span> <a href=""> {{.phone | markdownify}} </a>
+          </li>
+          <li class="fw-light">
+            <span class="me-3 text-dark fw-normal">address:</span> {{.address | markdownify}}
+          </li>
+        </ul>
+        {{ end }}
+      </div>
+      <div class="col-lg-10 mx-auto">
+        <h2 class="text-capitalize mb-5">{{ i18n  `get_in_touch` }}</h2>
+        <!--  form -->
+        <form action="{{ site.Params.contact_form_action | safeURL }}" method="post">
+          <div class="row g-4">
+            <div class="col-12 mb-3 mt-0">
+              <textarea rows="7" class="form-control" placeholder="{{ i18n `message`}}" name="message" required></textarea>
+            </div>
+            <div class="col-md-6 mb-3 mt-0">
+              <input type="text" class="form-control" placeholder="{{ i18n `name`}}" aria-label="name" name="name" required>
+            </div>
+
+            <div class="col-md-6 mb-3 mt-0">
+              <input type="email" class="form-control" placeholder="{{ i18n `email`}}" aria-label="email" name="email" required>
+            </div>
+
+            <div class="col-12 mb-3 mt-0">
+              <button type="submit" class="btn btn-primary btn-xl text-uppercase">{{ i18n `submit`}}</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ end }}

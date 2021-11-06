@@ -1,0 +1,76 @@
+- id: read_more
+  translation: Read More
+
+- id: your_email
+  translation: Your email
+
+- id: subscribe_newslatter
+  translation: Subscribe for newslatter
+  
+- id: name
+  translation: Name
+
+- id: email
+  translation: Email
+
+- id: message
+  translation: type your message here
+
+- id: submit
+  translation: send message
+
+- id: get_in_touch
+  translation: get in touch
+
+- id: page_not_found
+  translation: "404"
+
+- id: back_to_home
+  translation: Back To HomePage
+
+- id: popular_posts
+  translation: popular posts
+
+- id: latest_posts
+  translation: latest posts 
+
+- id: read_more
+  translation: read more
+- id: popular_topics
+  translation: popular topics
+
+- id: about_me
+  translation: about me
+  
+- id: contact_me
+  translation: contact me
+  
+- id: follow_on
+  translation: follow on  
+  
+- id: privacy_policy
+  translation: privacy policy 
+
+- id: newsletter
+  translation: newsletter
+ 
+- id: newsletter_content
+  translation: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+- id: categories_item
+  translation: showing items form
+
+- id: travel
+  translation:  travel
+
+- id: prev_case
+  translation: Previous Post
+
+- id: next_case
+  translation: Next Post
+
+- id: search_placeholder
+  translation: Type & Hit Enter...
+
+- id: subscribe
+  translation: subscribe

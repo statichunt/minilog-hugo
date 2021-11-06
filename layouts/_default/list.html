@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section class="section-sm pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-2 section-heading text-light fw-bold text-capitalize">{{ i18n `categories_item`}} <span class="text-light-100">{{.Title | markdownify}}</span></h1>
+
+        <div class="row row-cols-1 row-cols-md-2 g-5">
+          {{ $paginator:= .Paginate .Data.Pages }}
+          {{ range $paginator.Pages }}
+          <div class="col">
+            {{ .Render "post" }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

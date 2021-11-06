@@ -1,0 +1,20 @@
+<!-- categories -->
+<div class="widget popular-topics">
+  <h3 class="widget-title text-uppercase text-center"><span>{{ i18n "popular_topics" }}</span></h3>
+  {{ if isset site.Taxonomies "categories" }}
+  {{ if not (eq (len site.Taxonomies.categories) 0) }}
+
+  <ul class="list-unstyled ps-0 widget-list">
+    {{ range $name, $items := site.Taxonomies.categories }}
+    <li class="list-group-item">
+      <a href="{{ .Page.RelPermalink }}"
+        {{ if (and (eq $.Page.Kind `term`) (eq $.Page.Type `categories`) (eq $.Page.Title .Page.Title)) }}
+        class="active" {{ end }}>{{ .Page.Title }}
+        <small class="ml-auto">({{ len $items }})</small>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+</div>

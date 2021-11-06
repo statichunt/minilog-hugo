@@ -1,0 +1,74 @@
+- id: read_more
+  translation: Lire la suite
+
+- id: your_email
+  translation: Votre e-mail
+
+- id: subscribe_newslatter
+  translation: Abonnez-vous à la newsletter
+  
+- id: name
+  translation: Nom
+
+- id: email
+  translation: E-mail
+
+- id: message
+  translation: tapez votre message ici
+
+- id: submit
+  translation: envoyer le message
+
+- id: get_in_touch
+  translation: entrer en contact
+
+- id: page_not_found
+  translation: "404"
+
+- id: back_to_home
+  translation: Retour à la page d'accueil
+
+- id: popular_posts
+  translation: Articles populaires
+
+- id: latest_posts
+  translation: derniers messages
+
+- id: popular_topics
+  translation: sujets populaires
+
+- id: about_me
+  translation: À propos de moi
+  
+- id: contact_me
+  translation: Contactez moi
+  
+- id: follow_on
+  translation: suivre sur
+  
+- id: privacy_policy
+  translation: politique de confidentialité
+
+- id: newsletter
+  translation: bulletins d'information
+ 
+- id: newsletter_content
+  translation: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+- id: categories_item
+  translation: résultat de la recherche pour
+
+- id: travel
+  translation:  travel
+
+- id: prev_case
+  translation: Post précédent
+
+- id: next_case
+  translation: Prochain article
+
+- id: search_placeholder
+  translation: Type & Hit Enter...
+  
+- id: subscribe
+  translation: subscribe
