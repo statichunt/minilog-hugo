@@ -5,23 +5,15 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Homepage
+  label: Post
 - type: document
-  path: exampleSite/content/english/_index.md
-  label: Homepage (en)
-- type: document
-  path: exampleSite/content/deutsch/_index.md
-  label: Homepage (de)
-- type: heading
-  label: Blog
-- type: document
-  path: exampleSite/content/english/blog/_index.md
+  path: exampleSite/content/english/posts/_index.md
   label: Blog Page (en)
 - type: document
-  path: exampleSite/content/deutsch/blog/_index.md
-  label: Blog Page (de)
+  path: exampleSite/content/french/posts/_index.md
+  label: Blog Page (fr)
 - type: directory
-  path: exampleSite/content/english/blog
+  path: exampleSite/content/english/posts
   label: Blog Post (en)
   create: documents
   match: "**/*"
@@ -29,8 +21,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/deutsch/blog
-  label: Blog Post (de)
+  path: exampleSite/content/french/blog
+  label: Blog Post (fr)
   create: documents
   match: "**/*"
   exclude: _index.md
@@ -39,23 +31,29 @@ sections:
 - type: heading
   label: Others Page
 - type: document
-  path: exampleSite/content/english/contact/_index.md
+  path: exampleSite/content/english/contact/contact.md
   label: Contact (en)
 - type: document
-  path: exampleSite/content/deutsch/contact/_index.md
-  label: Contact (de)
+  path: exampleSite/content/french/contact/contact.md
+  label: Contact (fr)
 - type: document
-  path: exampleSite/content/english/pricing/_index.md
-  label: Pricing (en)
+  path: exampleSite/content/english/about/about.md
+  label: About (en)
 - type: document
-  path: exampleSite/content/deutsch/pricing/_index.md
-  label: Pricing (de)
+  path: exampleSite/content/french/about/about.md
+  label: About (fr)
 - type: document
-  path: exampleSite/content/english/faq/_index.md
-  label: FAQ (en)
+  path: exampleSite/content/english/elements/elements.md
+  label: Elements (en)
 - type: document
-  path: exampleSite/content/deutsch/faq/_index.md
-  label: FAQ (de)
+  path: exampleSite/content/french/elements/elements.md
+  label: Elements (fr)
+- type: document
+  path: exampleSite/content/english/search.md
+  label: Search (en)
+- type: document
+  path: exampleSite/content/french/search.md
+  label: Search (fr)
 - type: heading
   label: All Pages
 - type: directory
@@ -85,10 +83,10 @@ sections:
   path: exampleSite/config/_default/menus.en.toml
   label: Menu (en)
 - type: document
-  path: exampleSite/config/_default/menus.de.toml
-  label: Menu (de)
+  path: exampleSite/config/_default/menus.fr.toml
+  label: Menu (fr)
   match: "**/*"
-upload_dir: exampleSite/static/images
+upload_dir: exampleSite/assets/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
@@ -96,11 +94,11 @@ file_template: ":filename:"
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.87.0
+  - HUGO_VERSION=0.88.1
   preview_output_directory: public
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.87.0
+version: 0.88.1
