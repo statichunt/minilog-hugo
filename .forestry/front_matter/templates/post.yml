@@ -1,0 +1,22 @@
+---
+label: post
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: popular
+  label: popular
