@@ -21,7 +21,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
+  path: exampleSite/content/french/posts
   label: Blog Post (fr)
   create: documents
   match: "**/*"
@@ -31,22 +31,22 @@ sections:
 - type: heading
   label: Others Page
 - type: document
-  path: exampleSite/content/english/contact/contact.md
+  path: exampleSite/content/english/contact.md
   label: Contact (en)
 - type: document
-  path: exampleSite/content/french/contact/contact.md
+  path: exampleSite/content/french/contact.md
   label: Contact (fr)
 - type: document
-  path: exampleSite/content/english/about/about.md
+  path: exampleSite/content/english/about.md
   label: About (en)
 - type: document
-  path: exampleSite/content/french/about/about.md
+  path: exampleSite/content/french/about.md
   label: About (fr)
 - type: document
-  path: exampleSite/content/english/elements/elements.md
+  path: exampleSite/content/english/elements.md
   label: Elements (en)
 - type: document
-  path: exampleSite/content/french/elements/elements.md
+  path: exampleSite/content/french/elements.md
   label: Elements (fr)
 - type: document
   path: exampleSite/content/english/search.md
