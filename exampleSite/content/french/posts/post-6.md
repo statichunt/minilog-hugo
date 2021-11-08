@@ -56,7 +56,7 @@ Did you come here for something in particular or just general Riker-bashing? And
 ## Five Ideas on How to Spend Your Free Time with Benefits
 Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi sollicitudin viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam ultricies sem vel vestibulum congue. In gravida enim in orci pellentesque, in aliquam felis faucibus. Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi sollicitudin viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar vestibulum mi. Morbi bibendum convallis velit, sed fringilla diam. Nullam ultricies sem vel vestibulum congue.
 
-{{< image class="img-fluid rounded-6" title="image" src="/images/01.jpg" alt="element">}}
+{{< image class="img-fluid rounded-6" title="image" src="/images/blog/01.jpg" alt="element">}}
 
 Quisque sem ipsum, placerat nec tortor vel, blandit vestibulum libero. Morbi sollicitudin viverra justo et pellentesque. Nunc sem metus, maximus eu leo viverra, pulvinar vestibulum mi. Morbi bibendum convallis velit
 

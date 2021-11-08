@@ -13,7 +13,7 @@ logo_text = "Boilerplate"
 navbar_fixed = true
 # theme-mode
 theme_switcher = true
-theme_default = "light" # available options [light/dark/automatic]
+theme_default = "automatic" # available options [light/dark/automatic]
 
 # search
 search = true
@@ -43,12 +43,6 @@ mainSections= ["posts"]
 [preloader]
 enable = true
 preloader = "" # use jpg, png, svg or gif format.
-
-# Navigation button
-[navigation_button]
-enable = true
-label = "get a quote"
-link = "contact"
 
 # Subscription
 [subscription]
@@ -85,10 +79,6 @@ bing = "" # Your verification code
 baidu = "" # Your verification code
 
 # Instagram feed
-[features]
-enable = true
-
-# Instagram feed
 [instafeed]
 enable = true
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
@@ -102,7 +92,7 @@ button = "I Accept"
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["author",  "categories", "tags", "newsletter"]
+sidebar = ["author", "categories", "tags", "newsletter"]
 # available widget : search,categories,tags,recent-post
 
 ############################# social site ########################

@@ -1,9 +1,6 @@
 - id: read_more
   translation: Read More
 
-- id: your_email
-  translation: Your email
-
 - id: subscribe_newslatter
   translation: Subscribe for newslatter
   
@@ -32,10 +29,8 @@
   translation: popular posts
 
 - id: latest_posts
-  translation: latest posts 
+  translation: latest posts
 
-- id: read_more
-  translation: read more
 - id: popular_topics
   translation: popular topics
 
@@ -60,13 +55,10 @@
 - id: categories_item
   translation: showing items form
 
-- id: travel
-  translation:  travel
-
-- id: prev_case
+- id: prev_post
   translation: Previous Post
 
-- id: next_case
+- id: next_post
   translation: Next Post
 
 - id: search_placeholder

@@ -137,7 +137,7 @@ alert(s);
 
 
 # Image
-{{< image class="img-fluid rounded-6" title="image" src="/images/01.jpg" alt="element">}}
+{{< image class="img-fluid rounded-6" title="image" src="/images/blog/01.jpg" alt="element">}}
 
 # Youtube :
 {{< youtube C0DPdy98e4c >}}
