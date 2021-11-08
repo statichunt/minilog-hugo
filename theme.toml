@@ -1,7 +1,8 @@
 name = "Minilog Hugo"
 license = "MIT"
 licenselink = "https://github.com/gethugothemes/minilog-hugo/blob/master/LICENSE"
-description = "minilog is a Travel blog template based on Bootstrap and powered by Hugo. It is very responsive and perfectly fits on any sized screen device."
+description = "Minilog is a free Blog template based on Bootstrap and powered by Hugo and fully responsive design.It is a perfect fit for Blog, Lifestyle, Travel  Food, websites. It is modern, and clean look.with Dark Mode."
+
 homepage = "https://github.com/gethugothemes/minilog-hugo/"
 demosite = "https://demo.gethugothemes.com/minilog/"
 tags = ['blog', 'light', 'bootstrap', "dark", 'portfolio', 'contact-form']
