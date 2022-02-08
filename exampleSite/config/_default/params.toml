@@ -17,17 +17,14 @@ theme_default = "automatic" # available options [light/dark/automatic]
 
 # search
 search = true
-# copyright
-theme_copyright = true
-copyright = "Copyright by your company"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
-custom_script= ""
+custom_script = ""
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
-author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+author = "Statichunt"
+image = "images/logo.png"                # this image will be used as fallback if a page has no image of its own
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 
@@ -37,7 +34,7 @@ phone = "+235725675, +343498759"
 email = "support@minilog.com"
 
 # Main Sections
-mainSections= ["posts"]
+mainSections = ["posts"]
 
 # Preloader
 [preloader]
@@ -49,13 +46,13 @@ preloader = "" # use jpg, png, svg or gif format.
 enable = true
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"                                                           # replace this code with yours
 
 # matomo tracking: see https://matomo.org/
 [matomo]
 enable = false
-url = "" # your matomo url
-id = "" # your matomo id
+url = ""       # your matomo url
+id = ""        # your matomo id
 
 # baidu analytics: see https://tongji.baidu.com/
 [baidu]
@@ -65,18 +62,18 @@ analytics_id = "" # Your ID
 # plausible analytics: see https://plausible.io/
 [plausible]
 enable = false
-domain = "" # yourdomain.com
+domain = ""    # yourdomain.com
 
 # counter analytics: see https://counter.dev/setup.html
 [counter]
 enable = false
-username = "" # your username
+username = ""  # your username
 
 # site verifications
 [site_verification]
 google = "" # Your verification code
-bing = "" # Your verification code
-baidu = "" # Your verification code
+bing = ""   # Your verification code
+baidu = ""  # Your verification code
 
 # Instagram feed
 [instafeed]
@@ -98,12 +95,12 @@ sidebar = ["author", "categories", "tags", "newsletter"]
 ############################# social site ########################
 [[social]]
 title = "facebook"
-icon = "fab fa-facebook"  # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
 
 [[social]]
 title = "twitter"
-icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
 
 [[social]]
