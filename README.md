@@ -1,4 +1,7 @@
-﻿<h1 align=center>Minilog Hugo | <a target="_blank" href="https://demo.gethugothemes.com/minilog" rel="nofollow">Demo</a> | <a  target="_blank" href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Ftf-minilog.netlify.app%2F&tab=mobile">Page Speed (89%)</a></h1>
+﻿<h1 align=center>Minilog Hugo</h1>  
+ <p align=center>Minilog Hugo is a clean and minimal blog template that is an excellent choice for authors who want to establish a personal blog site.  </p>
+<h2 align="center"><a target="_blank" href="https://statichunt.com/demo/hugo-minilog" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.statichunt.com%2Fminilog-hugo%2F&form_factor=desktop">Page Speed (91%)</a> </h2>
+ 
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.58.0" alt="Contributors">
@@ -25,7 +28,7 @@
 </p>
 
 ---
-## Features
+## key Features
 - Image optimize with Hugo pipe
 - Google font loads from Webfont loader	
 - CSS and JS bundle with Hugo pipe
