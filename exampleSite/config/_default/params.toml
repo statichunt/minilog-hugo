@@ -14,6 +14,9 @@ navbar_fixed = true
 # theme-mode
 theme_switcher = true
 theme_default = "automatic" # available options [light/dark/automatic]
+# copyright
+theme_copyright = true
+copyright = "Copyright by your company"
 
 # search
 search = true
