@@ -8,16 +8,16 @@
     <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.58.0&color=f00&logo=hugo" />
   </a>
 
-  <a href="https://github.com/gethugothemes/minilog-hugo/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/gethugothemes/minilog-hugo" alt="license"></a>
+  <a href="https://github.com/statichunt/minilog-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/statichunt/minilog-hugo" alt="license"></a>
 
-  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/minilog-hugo" alt="code size">
+  <img src="https://img.shields.io/github/languages/code-size/statichunt/minilog-hugo" alt="code size">
 
-  <a href="https://github.com/gethugothemes/minilog-hugo/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/gethugothemes/minilog-hugo" alt="contributors"></a>
+  <a href="https://github.com/statichunt/minilog-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/statichunt/minilog-hugo" alt="contributors"></a>
 
-  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
-    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
+  <a href="https://twitter.com/intent/follow?screen_name=heystatichunt">
+    <img src="https://img.shields.io/twitter/follow/heystatichunt?style=social&logo=twitter"
       alt="follow on Twitter"></a>
 </p>
 
@@ -55,7 +55,7 @@
 
 ```bash
 # clone the repository
-git clone git@github.com:gethugothemes/minilog-hugo.git
+git clone git@github.com:statichunt/minilog-hugo.git
 
 # cd in the project directory
 $ cd minilog-hugo/exampleSite/
@@ -68,10 +68,10 @@ Or Check out [Full Documentation](https://docs.gethugothemes.com/minilog/?ref=gi
 ## Content Management System
 
 [![import to
-Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/minilog-hugo&engine=hugo&version=0.88.1)
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=statichunt/minilog-hugo&engine=hugo&version=0.88.1)
 
 This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
-repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/minilog-hugo&engine=hugo&version=0.88.1) and
+repository in Forestry](https://app.forestry.io/quick-start?repo=statichunt/minilog-hugo&engine=hugo&version=0.88.1) and
 you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
@@ -79,7 +79,7 @@ Any changes you make in Forestry will be committed back to the repo and deployed
 ## Deployment and hosting
 
 [![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/minilog-hugo)
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/minilog-hugo)
 
 Follow the steps.
 
@@ -90,20 +90,20 @@ Build your website with **Minilog Hugo** theme by following these easy steps (No
 <!-- reporting issue -->
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Minilog Template. Please Search [existing
-issues](https://github.com/gethugothemes/minilog-hugo/issues). Someone may have already reported the same problem.
+issues](https://github.com/statichunt/minilog-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
-issue](https://github.com/gethugothemes/minilog-hugo/issues).
+issue](https://github.com/statichunt/minilog-hugo/issues).
 
 <!-- ## Minilog Hugo theme Powered Websites
 
 
-View all the websites powered by Minilog Hugo theme [here](https://github.com/gethugothemes/minilog-hugo/wiki/All-minilog-hugo-theme-Powered-Websites). Want to submit your website powered by Minilog Hugo theme? You can submit it [here](https://github.com/gethugothemes/minilog-hugo/discussions/3). -->
+View all the websites powered by Minilog Hugo theme [here](https://github.com/statichunt/minilog-hugo/wiki/All-minilog-hugo-theme-Powered-Websites). Want to submit your website powered by Minilog Hugo theme? You can submit it [here](https://github.com/statichunt/minilog-hugo/discussions/3). -->
 
 <!-- licence -->
 ## License
 Copyright &copy; Designed and developed by [Statichunt](https://Statichunt.com)
 
-**Code License:** Released under the [MIT](https://github.com/gethugothemes/minilog-hugo/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/statichunt/minilog-hugo/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
 share those images.
@@ -117,5 +117,5 @@ share those images.
 - [Fuse Js](https://fusejs.io)
 - [Mark Js](https://markjs.io)
 - [Google Fonts](https://fonts.google.com/)
-- [All Contributors](https://github.com/gethugothemes/minilog-hugo/graphs/contributors)
+- [All Contributors](https://github.com/statichunt/minilog-hugo/graphs/contributors)
 
