@@ -65,16 +65,7 @@ $ hugo server --themesDir ../..
 ```
 Or Check out [Full Documentation](https://docs.gethugothemes.com/minilog/?ref=github).
 
-## Content Management System
 
-[![import to
-Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=statichunt/minilog-hugo&engine=hugo&version=0.88.1)
-
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
-repository in Forestry](https://app.forestry.io/quick-start?repo=statichunt/minilog-hugo&engine=hugo&version=0.88.1) and
-you will be able to edit and preview your site ✨.
-
-Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
 ## Deployment and hosting
 
@@ -82,10 +73,6 @@ Any changes you make in Forestry will be committed back to the repo and deployed
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/minilog-hugo)
 
 Follow the steps.
-
-## Prefer a video? (Hugo + Netlify + Forestry)
-Build your website with **Minilog Hugo** theme by following these easy steps (No Coding Required!)
-[Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
