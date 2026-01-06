@@ -67,12 +67,19 @@ Or Check out [Full Documentation](https://docs.gethugothemes.com/minilog/?ref=gi
 
 
 
-## Deployment and hosting
+<!-- edit with sitepins -->
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/statichunt/minilog-hugo)
+## 📝 Edit Content with CMS
 
-Follow the steps.
+This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+
+**How to get started:**
+
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Minilog%20Hugo&repository=https://github.com/statichunt/minilog-hugo/">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
 
 <!-- reporting issue -->
 ## Reporting Issues
@@ -105,4 +112,5 @@ share those images.
 - [Mark Js](https://markjs.io)
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/statichunt/minilog-hugo/graphs/contributors)
+
 
